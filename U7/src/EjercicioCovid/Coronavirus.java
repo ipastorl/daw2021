@@ -89,6 +89,7 @@ public class  Coronavirus  {
     public void pacientesporPeso(Cepa cepa) {
         if (cepa == null ) {
             mapaContagiados.put(cepa, new HashSet<Paciente>());
+
         }
         try {
             TreeSet<Paciente> pacientes = new TreeSet<>();
