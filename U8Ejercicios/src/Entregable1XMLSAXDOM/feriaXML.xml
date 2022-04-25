@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feria>
+    <caseta id="1">
+        <nombreCaseta>Distrito Cerro</nombreCaseta>
+        <aforo>200</aforo>
+        <m2>200</m2>
+    </caseta>
+    <caseta id="2">
+        <nombreCaseta>Distrito Nervión</nombreCaseta>
+        <aforo>56</aforo>
+        <m2>98</m2>
+    </caseta>
+    <caseta id="3">
+        <nombreCaseta>Distrito Macarena</nombreCaseta>
+        <aforo>58</aforo>
+        <m2>56</m2>
+    </caseta>
+    <caseta id="4">
+        <nombreCaseta>Distrito Polígono Sur</nombreCaseta>
+        <aforo>88</aforo>
+        <m2>100</m2>
+    </caseta>
+    <caseta id="5">
+        <nombreCaseta>Distrito Polígono Norte</nombreCaseta>
+        <aforo>406</aforo>
+        <m2>109</m2>
+    </caseta>
+</feria>
