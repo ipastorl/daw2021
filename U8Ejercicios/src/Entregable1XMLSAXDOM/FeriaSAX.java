@@ -7,7 +7,7 @@ import org.xml.sax.helpers.DefaultHandler;
 import java.util.ArrayList;
 
 public class FeriaSAX extends DefaultHandler {
-    private ArrayList<Feria> casetas = new ArrayList<>();
+    private final ArrayList<Feria> casetas = new ArrayList<>();
     private Feria feria_actual;
     private String contenido_nodo = "";
 
