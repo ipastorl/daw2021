@@ -19,7 +19,7 @@ public class DOMPersona {
             //Cargo el Fichero XML en Memoria
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
-            Document doc = db.parse(new File("personasXML.xml"));
+            Document doc = db.parse(new File("C:\\Users\\issa2\\OneDrive\\Documentos\\DAW\\PROGRAMACION\\daw2021\\U8\\src\\DOM\\personasXML.xml"));
 
             //Cojo directamente las etiquetas persona
             NodeList nl = doc.getElementsByTagName("persona");
