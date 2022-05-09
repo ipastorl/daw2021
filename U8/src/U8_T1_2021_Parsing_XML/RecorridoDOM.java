@@ -32,13 +32,13 @@ public class RecorridoDOM {
                 // Si es de tipo 1 (Elemento), imprime el nombre del nodo
                 System.out.print(nodeList.item(i).getNodeName() + " ");
                 if (nodeList.item(i).hasAttributes()) {
-                    // ¿cuántos atributos tiene?, recorrerlos
+                    // Recorrer atributos, si los hay
                     for (int k = 0; k < nodeList.item(i).getAttributes().getLength(); k++) {
                         System.out.println(nodeList.item(i).getAttributes().item(k) + " ");
                     }
                 }
                 if (nodeList.item(i).getChildNodes().getLength() > 0) {
-                    // ¿Tiene hijos?, recorrerlos
+                    // Recorrer nodos hijos, si los hay
                     NodeList nlsub = nodeList.item(i).getChildNodes();
                     for (int j = 0; j < nlsub.getLength(); j++) {
                         if (nlsub.item(j).getNodeType() == 1) {
@@ -48,7 +48,6 @@ public class RecorridoDOM {
                     }
                 }
             }
-
         }
     }
     public static void cantidadDePlatos(NodeList nodeList){
