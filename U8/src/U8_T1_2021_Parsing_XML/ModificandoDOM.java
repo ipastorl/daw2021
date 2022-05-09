@@ -61,12 +61,13 @@ public class ModificandoDOM {
             root.appendChild(food);
 
 
-            // Crear la etiqueta healthy - true
-            Element healthy = doc.createElement("healthy");
-            healthy.setTextContent("true");
+
             // Insertar la etiqueta healthy - true en los platos (food)
             NodeList platos = doc.getElementsByTagName("food");
             for (int i = 0; i < platos.getLength(); i++) {
+                // Crear la etiqueta healthy - true
+                Element healthy = doc.createElement("healthy");
+                healthy.setTextContent("true");
                 Node plato = platos.item(i);
                 Element elem = (Element) plato;
                 elem.appendChild(healthy);
